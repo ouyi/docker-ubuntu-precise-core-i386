@@ -1,8 +1,8 @@
-# About
+## About
 
 This is a script and a Dockerfile to build a Ubuntu Precise 32 bit docker image, based on https://github.com/daald/docker-brew-ubuntu-core-32bit.
 
-# Build
+## Build
 
 	download official clould image:
 
@@ -12,7 +12,7 @@ This is a script and a Dockerfile to build a Ubuntu Precise 32 bit docker image,
 
 	  docker build -t $(whoami)/ubuntu-precise-core-i386 .
 
-# Result
+## Result
 
 	$ docker images
 	REPOSITORY                      TAG                 IMAGE ID            CREATED             SIZE
