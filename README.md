@@ -6,7 +6,7 @@ This is a script and a Dockerfile to build a Ubuntu Precise 32 bit docker image,
 
 	download official clould image:
 
-	  ./download\_cloudimg.sh
+	  ./download_cloudimg.sh
 
 	build docker image:
 
