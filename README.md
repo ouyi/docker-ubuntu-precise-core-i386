@@ -10,7 +10,7 @@ This is a script and a Dockerfile to build a Ubuntu Precise 32 bit docker image,
 
 	build docker image:
 
-	  docker build -t $(whoami)/ubuntu-precise-core-i386 .
+	  docker build -t $(whoami)/docker-ubuntu-precise-core-i386 .
 
 ## Result
 
@@ -22,5 +22,5 @@ This is a script and a Dockerfile to build a Ubuntu Precise 32 bit docker image,
 
 In a Dockerfile, you can use
 
-    FROM ouyi/ubuntu-precise-core-i386
+    FROM ouyi/docker-ubuntu-precise-core-i386
 
