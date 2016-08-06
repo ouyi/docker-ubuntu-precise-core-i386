@@ -7,6 +7,8 @@ ADD ubuntu-precise-core-cloudimg-i386-root.tar.gz /
 # command
 ENTRYPOINT ["/usr/bin/linux32", "--"]
 
+RUN echo "nameserver 8.8.8.8" | tee /etc/resolv.conf > /dev/null
+
 # a few minor docker-specific tweaks
 # see https://github.com/docker/docker/blob/master/contrib/mkimage/debootstrap
 RUN echo '#!/bin/sh' > /usr/sbin/policy-rc.d \
