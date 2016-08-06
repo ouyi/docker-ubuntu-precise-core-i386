@@ -20,7 +20,7 @@ This is a script and a Dockerfile to build a Ubuntu Precise 32 bit docker image,
 
 ## Usage
 
-In a Dockerfile, you can use
+In a Dockerfile, you can use (you may need to replace the user name)
 
     FROM ouyi/docker-ubuntu-precise-core-i386
 
